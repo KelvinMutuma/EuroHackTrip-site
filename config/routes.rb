@@ -1,4 +1,10 @@
 EuroHackTrip::Application.routes.draw do
+  resources :comments
+
+  resources :posts
+
+  resources :events
+
   resources :people
 
   resources :countries
